@@ -21,3 +21,6 @@ def play_song(filename):
                 duration = int(float(line_split[1]))
                 sleep_ms(duration)
 
+
+play_song('mario.txt') # change this as needed
+
